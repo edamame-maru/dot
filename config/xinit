@@ -1,0 +1,2 @@
+feh --bg-center ~/dotfiles/media/bg_dracula.png &
+exec dwm
