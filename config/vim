@@ -47,6 +47,6 @@ Plug 'dracula/vim'
 call plug#end()
 
 " colorscheme
-let g:solarized_termcolors=256
+set termguicolors
 set background=dark
 colorscheme dracula
