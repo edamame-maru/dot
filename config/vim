@@ -23,10 +23,6 @@ set guifont=Fira\ Code\ 16
 " wrap lines at 80 characters
 set textwidth=80
 
-" paste shortcut
-nnoremap <C-S-v> "+p
-inoremap <C-S-v> "+p
-
 syntax enable
 
 " Install vim-plug if not found
