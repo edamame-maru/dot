@@ -1,2 +1,6 @@
-feh --bg-center ~/dotfiles/media/bg_dracula.png &
+feh --bg-center ~/dot/media/bg_dracula.png &
+while true; do
+	xsetroot -name " $(date -Iseconds) BAT: $(cat /sys/class/power_supply/BAT0/capacity)%"
+	sleep 1
+done &
 exec dwm
