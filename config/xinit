@@ -1,5 +1,5 @@
 # Wallpaper
-feh --bg-center ~/media/kurage.jpg &
+feh --bg-center ~/dotfiles/media/kurage.jpg &
 
 # Statusbar loop
 while true; do
