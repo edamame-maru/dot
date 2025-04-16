@@ -1,5 +1,5 @@
 # Wallpaper
-feh --bg-center ~/dotfiles/media/kurage.jpg &
+feh --bg-fill ~/dotfiles/media/fumikiri.jpg &
 
 # Statusbar loop
 while true; do
@@ -8,4 +8,4 @@ while true; do
 done &
 
 # All hail dwm
-exec dwm
+exec 1dwm
