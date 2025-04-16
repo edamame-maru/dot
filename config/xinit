@@ -1,6 +1,11 @@
-feh --bg-center ~/dot/media/bg_dracula.png &
+# Wallpaper
+feh --bg-center ~/media/kurage.jpg &
+
+# Statusbar loop
 while true; do
-	xsetroot -name " $(date -Iseconds) $(cat /sys/class/power_supply/BAT0/capacity)%"
-	sleep 1
+	xsetroot -name " $(cat /sys/class/power_supply/BAT0/capacity)% $(date +"%R")";
+	sleep 1m
 done &
+
+# All hail dwm
 exec dwm

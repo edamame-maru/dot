@@ -38,11 +38,11 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 
 call plug#begin()
 
-Plug 'dracula/vim'
+Plug 'chriskempson/base16-vim'
 
 call plug#end()
 
 " colorscheme
 set termguicolors
 set background=dark
-colorscheme dracula
+colorscheme base16-default-dark
