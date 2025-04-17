@@ -7,5 +7,8 @@ while true; do
 	sleep 1m
 done &
 
+# compositor
+picom -b &
+
 # All hail dwm
 exec 1dwm
